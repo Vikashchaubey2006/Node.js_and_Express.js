@@ -7,8 +7,6 @@
 // In package.json file we can make their own scripts like :- "start": "node hello.js" your file name then then directly you can npm start and automatically your will file will be run
 
 
-function add(a, b) {
-  return a + b;
-}
+const math = require ("./math");
 
-console.log(add(2, 5));
+console.log("Math Value is", math);
