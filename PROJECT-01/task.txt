@@ -1,0 +1,19 @@
+REST API - JSON
+
+GET /user - HTML Document Render
+
+GET /api/user/1 - Get the user with ID 1 - Done
+GET /api/user/2 - Get the user with ID 2 - Done
+
+Dynamic Path Parameters
+GET /api/users:id
+:id - Variable | This ia dynamic - - Done
+
+POST /api/user - Create new user 
+
+PATCH /api/users/1 - Edit the user with ID 1
+
+DELETE /api/users/1 - Delete the Users with ID 1
+
+
+api - is a hybrid server react tab, Moile tab, Alexa smart device when we want to interact then it request /api/users
